@@ -1,30 +1,12 @@
-   0.014456900s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\PIYUSH\Desktop\RUST\basic) target="basic"}: cargo::core::compiler::fingerprint: fingerprint error for basic v0.1.0 (C:\Users\PIYUSH\Desktop\RUST\basic)/Check { test: true }/TargetInner { name: "basic", doc: true, ..: with_path("C:\\Users\\PIYUSH\\Desktop\\RUST\\basic\\src\\main.rs", Edition2024) }
-   0.014592700s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\PIYUSH\Desktop\RUST\basic) target="basic"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\PIYUSH\Desktop\RUST\basic\target\debug\.fingerprint\basic-f90986242cc05f3f\test-bin-basic`
-
-Caused by:
-    The system cannot find the file specified. (os error 2)
-
-Stack backtrace:
-   0: git_midx_writer_dump
-   1: git_midx_writer_dump
-   2: git_midx_writer_dump
-   3: git_midx_writer_dump
-   4: git_filter_source_repo
-   5: git_filter_source_repo
-   6: git_filter_source_repo
-   7: git_filter_source_repo
-   8: git_filter_source_repo
-   9: git_filter_source_repo
-  10: git_filter_source_repo
-  11: git_libgit2_prerelease
-  12: <unknown>
-  13: <unknown>
-  14: <unknown>
-  15: <unknown>
-  16: git_midx_writer_dump
-  17: git_filter_source_repo
-  18: git_midx_writer_dump
-  19: BaseThreadInitThunk
-  20: RtlUserThreadStart
+   0.077705000s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\PIYUSH\Desktop\RUST\basic) target="basic"}: cargo::core::compiler::fingerprint: stale: changed "C:\\Users\\PIYUSH\\Desktop\\RUST\\basic\\src\\main.rs"
+   0.078243600s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\PIYUSH\Desktop\RUST\basic) target="basic"}: cargo::core::compiler::fingerprint:           (vs) "C:\\Users\\PIYUSH\\Desktop\\RUST\\basic\\target\\debug\\.fingerprint\\basic-e48eae5ac543b4de\\dep-bin-basic"
+   0.078249700s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\PIYUSH\Desktop\RUST\basic) target="basic"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13406666903, nanos: 639799000 } < FileTime { seconds: 13406667795, nanos: 322215400 }
+   0.078850300s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\PIYUSH\Desktop\RUST\basic) target="basic"}: cargo::core::compiler::fingerprint: fingerprint dirty for basic v0.1.0 (C:\Users\PIYUSH\Desktop\RUST\basic)/Check { test: false }/TargetInner { name: "basic", doc: true, ..: with_path("C:\\Users\\PIYUSH\\Desktop\\RUST\\basic\\src\\main.rs", Edition2024) }
+   0.079432400s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\PIYUSH\Desktop\RUST\basic) target="basic"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "C:\\Users\\PIYUSH\\Desktop\\RUST\\basic\\target\\debug\\.fingerprint\\basic-e48eae5ac543b4de\\dep-bin-basic", reference_mtime: FileTime { seconds: 13406666903, nanos: 639799000 }, stale: "C:\\Users\\PIYUSH\\Desktop\\RUST\\basic\\src\\main.rs", stale_mtime: FileTime { seconds: 13406667795, nanos: 322215400 } }))
+   0.081644900s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\PIYUSH\Desktop\RUST\basic) target="basic"}: cargo::core::compiler::fingerprint: stale: changed "C:\\Users\\PIYUSH\\Desktop\\RUST\\basic\\src\\main.rs"
+   0.081659900s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\PIYUSH\Desktop\RUST\basic) target="basic"}: cargo::core::compiler::fingerprint:           (vs) "C:\\Users\\PIYUSH\\Desktop\\RUST\\basic\\target\\debug\\.fingerprint\\basic-f90986242cc05f3f\\dep-test-bin-basic"
+   0.081665900s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\PIYUSH\Desktop\RUST\basic) target="basic"}: cargo::core::compiler::fingerprint:                FileTime { seconds: 13406667033, nanos: 198221900 } < FileTime { seconds: 13406667795, nanos: 322215400 }
+   0.081828800s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\PIYUSH\Desktop\RUST\basic) target="basic"}: cargo::core::compiler::fingerprint: fingerprint dirty for basic v0.1.0 (C:\Users\PIYUSH\Desktop\RUST\basic)/Check { test: true }/TargetInner { name: "basic", doc: true, ..: with_path("C:\\Users\\PIYUSH\\Desktop\\RUST\\basic\\src\\main.rs", Edition2024) }
+   0.081843300s  INFO prepare_target{force=false package_id=basic v0.1.0 (C:\Users\PIYUSH\Desktop\RUST\basic) target="basic"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "C:\\Users\\PIYUSH\\Desktop\\RUST\\basic\\target\\debug\\.fingerprint\\basic-f90986242cc05f3f\\dep-test-bin-basic", reference_mtime: FileTime { seconds: 13406667033, nanos: 198221900 }, stale: "C:\\Users\\PIYUSH\\Desktop\\RUST\\basic\\src\\main.rs", stale_mtime: FileTime { seconds: 13406667795, nanos: 322215400 } }))
     Checking basic v0.1.0 (C:\Users\PIYUSH\Desktop\RUST\basic)
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.46s
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.53s
