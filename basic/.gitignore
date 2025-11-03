@@ -1,0 +1,15 @@
+# Ignore build artifacts
+/target/
+
+# Ignore backup files
+**/*.rs.bk
+
+# Ignore generated Cargo lockfile for libraries (optional)
+# Cargo.lock
+
+# VS Code files (optional)
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

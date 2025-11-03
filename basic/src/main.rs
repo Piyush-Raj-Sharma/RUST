@@ -15,4 +15,3 @@ fn main() {
 // which helps to avoid syntax errors at the compilation time itself.
 
 //IF we make any chanes in the code we need to recompile the code using rustc command to reflect the changes in the executable file.
-
